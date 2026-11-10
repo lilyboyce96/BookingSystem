@@ -1,1 +1,1 @@
-﻿
+﻿Console.WriteLine("Booking System har startat!");
