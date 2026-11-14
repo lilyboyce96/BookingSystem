@@ -2,7 +2,7 @@
 
 namespace BookingSystem.Repositories
 {
-    public class ProductRepository
+    public class EquipmentRepository
     {
         private readonly List<EquipmentItem> _items = new();
         public EquipmentItem? GetItem(string inventoryNumber)
@@ -15,8 +15,7 @@ namespace BookingSystem.Repositories
         }
         public void SaveItem(EquipmentItem item)
         {
-            // Ändringen finns redan i listan eftersom
-            // listan innehåller en referens till samma objekt.
+            // Ändringen finns redan i listan eftersom listan innehåller en referens till samma objekt.
         }
     }
 }

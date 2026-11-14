@@ -5,8 +5,8 @@ namespace BookingSystem.Services
 {
     public class EquipmentService
     {
-        private readonly ProductRepository _repository;
-        public EquipmentService(ProductRepository repository)
+        private readonly EquipmentRepository _repository;
+        public EquipmentService(EquipmentRepository repository)
         {
             _repository = repository;
         }
